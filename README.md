@@ -19,3 +19,8 @@ chmod +x navicat15-premium-en.AppImage
 ./navicat15-premium-en.AppImage
 ```
 - https://navicat.com/download/direct-download?product=navicat15-premium-en.AppImage&location=1
+
+## Case Error:
+> error while loading shared libraries: libfuse.so.2: cannot open shared object file: No such file or directory
+`sudo apt install libfuse2`
+
